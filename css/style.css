@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: #001; */
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    outline: none;
+}
+li{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    padding: 16px;
+    /* height: 100px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #001;
+    z-index: 999;
+}
+nav{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.landing-page, .about-us, .activities, .contact{
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+}
+
+/* ======================= LANDING PAGE ===================== */
+.landing-page{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    background: rgb(145, 27, 27) !important;
+}
+/* .slide{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 1000px;
+} */
+.brand-text{
+    position: absolute;
+    top: 42%;
+    left: 300px;
+}
+.brand-text h1{
+    color: #fff;
+    font-size: 78px;
+    font-weight: 700;
+}
+.brand-text h3{
+    color: #002;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+
+
+/* ====================== ABOUT CSS ======================== */
+.about-us{
+    background: #fff;
+    display: flex;
+}
+.about-lhs{
+    width: 30%;
+}
+.about-rhs{
+    background: rgb(14, 16, 19);
+    width: 70%;
+    /* padding: 30px 150px; */
+    color: #fff;
+    text-align: left;
+}
+.about-logo{
+    width: 300px;
+    height: 300px;
+    background: rgb(14, 16, 19);
+    border-radius: 14px;
+    position: relative;
+    top: 380px;
+    left: 190px;
+}
+.about-text{
+    width: 50%;
+    margin: 60px auto;
+}
+.about-text h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.about-text p{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+
+/* ===================== ACTIVITIES CSS ==================== */
+.activities{
+    background: #fff;
+    padding-top: 20px;
+}
+.activities-header{
+    padding: 45px 10px;
+}
+.activities-header p{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.a-b-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.a-b-col-1{
+    width: 30%;
+}
+.activities-body h2{
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.a-b-col-1{
+    margin: 30px;
+}
+.a-b-col-1 h1{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.a-b-col-1 p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    font: 500;
+}
+
+
+/* =================================== VISION-BOARD ================================= */
+.vision{
+    min-height: 400px;
+    height: fit-content;
+    width: 100%;
+    margin: 20px 0px;
+}
+.vision-circles{
+    display: flex;
+}
+.v-c-p-1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+.v-c-p-1 img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+.v-c-p-1 h3{
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.v-c-p-1 p{
+    font-size: 23px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+
+/* ======================= CONTACT ======================= */
+.contact{
+    min-height: 600px;
+    height: fit-content;
+    padding: 60px 20px;
+    width: 100%;
+    text-align: center;
+}
+.contact h2{
+    margin-top: 40px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.contact-org-name{
+    font-size: 28px;
+    margin-top: 150px;
+}
+.contact-org-add{
+    font-size: 20px;
+}
+.socials-contact{
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 130px;
+    justify-content: space-between;
+}
